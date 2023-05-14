@@ -1,0 +1,18 @@
+@import "variables";
+
+@mixin side-images($side){
+
+  @if $side == "right"{
+    right: 0;
+  }@else{
+    left: 0;
+  }
+
+  position: absolute;
+  height: $image-height;
+  max-height: $image-max-height;
+  bottom: 0;
+  opacity: $image-opacity;
+  transition:opacity 1s linear;
+
+}

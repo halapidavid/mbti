@@ -11,6 +11,7 @@ export default function FormInput(props) {
     const {points, setPoints} = useContext(PointsOfTest);
     const {answeredQuestions, setAnsweredQuestions} = useContext(AnsweredQuestions);
 
+
     async function save(answer) {
 
         await setAnsweredState(true);
@@ -44,9 +45,7 @@ export default function FormInput(props) {
 
     function editButton() {
 
-        let button = answeredState ? <button className="btn btn-outline-dark w-100 d-block mt-2" onClick={reset}>Szerkeszt</button> : "";
-
-        return button;
+        return answeredState ? <button className="btn btn-outline-dark w-100 d-block mt-2" onClick={reset}>Szerkeszt</button> : "";
 
 
     }

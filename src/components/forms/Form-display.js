@@ -7,9 +7,16 @@ export default function FormDisplay(props) {
 
     const {points} = useContext(PointsOfTest);
 
-    const resultCode = `${points["E"] > 0 ? "E" : "I"}${points["N"] > 0 ? "N" : "S"}${points["T"] > 0 ? "T" : "F"}${points["J"] > 0 ? "J" : "P"} `;
+    const resultCode = `${points["E"] > 0 ? "E" : "I"}${points["N"] > 0 ? "N" : "S"}${points["T"] > 0 ? "T" : "F"}${points["J"] > 0 ? "J" : "P"}`;
 
     if (props.displayed) {
+
+        props.images.right.current.src = `/images/${resultCode.toLowerCase()}_right.png`;
+        props.images.left.current.src = `/images/${resultCode.toLowerCase()}_left.png`;
+        props.images.right.current.classList.remove('hidden-side-image');
+        props.images.left.current.classList.remove('hidden-side-image');
+
+
         return (<div className="mt-2">
             <h3 className="text-center">Az eredményed: {resultCode} </h3>
             <div className="row justify-content-center">
@@ -31,6 +38,10 @@ export default function FormDisplay(props) {
 
         </div>)
     } else {
+
+       if( props.images.right.current) props.images.right.current.src = ``;
+        if( props.images.right.current)  props.images.left.current.src = ``;
+
         return null;
     }
 

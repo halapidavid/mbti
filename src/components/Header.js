@@ -4,7 +4,7 @@ export default function Header(){
     return(<div id="mainNavigation">
         <nav role="navigation">
             <div className="py-3 text-center border-bottom">
-                <img src="/images/mbti_trans.png" alt="" className="invert w-25" />
+                <img src="/images/mbti_trans.png" alt="MBTI logo" title="MBTI logo" className="invert w-25" />
             </div>
         </nav>
         <div className="navbar-expand-md">
@@ -18,7 +18,7 @@ export default function Header(){
             <div className="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav mx-auto ">
                    <li className="nav-item">
-                        <Link className="nav-link" href="#">Mi is az MBTI?</Link>
+                        <Link className="nav-link" href="/">Mi is az MBTI?</Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">A típusok <span className="text-info">(Hamarosan!)</span></a>
@@ -29,8 +29,8 @@ export default function Header(){
                             Tesztek
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><Link className="dropdown-item" href="/tesztek/4/">4 kérdéses <span className="text-danger">(ÚJ!)</span></Link></li>
-                            <li><Link className="dropdown-item" href="/tesztek/72/">72 kérdéses</Link></li>
+                            <li><Link className="dropdown-item" href="/tesztek/4">4 kérdéses <span className="text-danger">(ÚJ!)</span></Link></li>
+                            <li><Link className="dropdown-item" href="/tesztek/72">72 kérdéses</Link></li>
                         </ul>
                     </li>
                 </ul>
