@@ -1,0 +1,167 @@
+{
+  "4": {
+    "maximum_points": "1",
+    "questions": [
+      {"title":  "Népszerű voltál az iskolában?", "affected": "E", "true": "1"},
+
+      {"title":  "Sportolsz valamit?", "affected": "N", "true": "-1"},
+
+      {"title":  "Jó vagy matekból?", "affected": "T", "true": "1"},
+
+      {"title":  "Rend van a szobádban?", "affected": "J", "true": "1"}
+
+    ],
+    "copyright": "Egy kitiltott Twitter felhasználó 😂"
+  },
+  "72": {
+    "maximum_points": "18",
+    "questions": [
+      {"title":  "Szinte sosem késel el a találkozóidról?", "affected": "J", "true": "1"},
+
+      {"title":  "Szereted az aktív és gyors tempójú munkát?", "affected": "E", "true": "1"},
+
+      {"title":  "Élvezed/élveznéd, hogy sok ismerősöd van?", "affected": "E", "true": "1"},
+
+      {"title":  "Döntéshozatalkor szívesebben hagyatkozol érzelmekre, mint logikus észrevételekre?", "affected": "T", "true": "-1"},
+
+      {"title":  "Egy váratlan eseményre (telefoncsörgés, váratlan kérdés) általában te reagálsz elsőként?", "affected": "E", "true": "1"},
+
+      {"title":  "Jobban érdekel az ötlet maga, mint a kivitelezésének részletei?", "affected": "N", "true": "1"},
+
+      {"title":  "Általában elfogulatlan vagy, még ha ez veszélyezteti is az emberekkel való jó kapcsolatodat?", "affected": "T", "true": "1"},
+
+      {"title":  "Az elfogadott szabályok szigorú követése ritkán vezet jó végeredményre?", "affected": "J", "true": "-1"},
+
+      {"title":  "Nehéz téged izgalomba hozni?", "affected": "T", "true": "1"},
+
+      {"title":  "Számodra természetes a felelősség vállalása?", "affected": "J", "true": "1"},
+
+      {"title":  "Gyakran gondolkodsz az emberiségen és annak sorsán?", "affected": "N", "true": "1"},
+
+      {"title":  "Hited szerint az a legjobb döntés, amit könnyen meg lehet változtatni?", "affected": "J", "true": "-1"},
+
+      {"title":  "Az objektív kritika mindig hasznos minden tevékenységben?", "affected": "T", "true": "1"},
+
+      {"title":  "Inkább a tapasztalatodra támaszkodsz, mintsem elméleti alternatívákra?", "affected": "N", "true": "-1"},
+
+      {"title":  "Az elméleti dolgok kevéssé foglalkoztatnak?", "affected": "N", "true": "-1"},
+
+      {"title":  "Inkább az eszedben bízol, mint az érzéseidben?", "affected": "J", "true": "-1"},
+
+      {"title":  "A gondos tervezés helyett inkább az improvizációra támaszkodsz?", "affected": "N", "true": "1"},
+
+      {"title":  "A szabadidődet legszívesebben aktív társasági élettel töltöd, pl. bulik, vásárlás?", "affected": "E", "true": "1"},
+
+      {"title":  "Általában előre megtervezed a cselekedeteidet?", "affected": "J", "true": "1"},
+
+      {"title":  "Cselekedeteidet gyakran befolyásolják az érzelmek?", "affected": "T", "true": "-1"},
+
+      {"title":  "Mondhatjuk, hogy magadnak való ember vagy, a kommunikációdban távolságtartó?", "affected": "E", "true": "-1"},
+
+      {"title":  "Tudod, hogyan töltsd el minden perced hasznosan?", "affected": "J", "true": "1"},
+
+      {"title":  "Élvezed, ha olyan események középpontjában lehetsz, aminek más emberek is közvetlen részesei?", "affected": "E", "true": "1"},
+
+      {"title":  "Szeretsz segíteni az embereknek viszonzás nélkül is?", "affected": "T", "true": "-1"},
+
+      {"title":  "Gyakran merengsz az élet bonyolultságán?", "affected": "N", "true": "1"},
+
+      {"title":  "Hosszabb társasági élet után szükségét érzed, hogy elvonulj és magadban légy?", "affected": "E", "true": "-1"},
+
+      {"title":  "Gyakran sietve csapod össze a munkád?", "affected": "J", "true": "-1"},
+
+      {"title":  "Könnyedén észreveszed az egyedi jelenségek mögött megbúvó általános szabályt/szabályosságot?", "affected": "N", "true": "-1"},
+
+      {"title":  "Gyakran és könnyen ki tudod fejezni az érzelmeidet?", "affected": "T", "true": "-1"},
+
+      {"title":  "Nehezedre esik hangosan beszélni?", "affected": "E", "true": "-1"},
+
+      {"title":  "Az elméleti könyvek olvasását unalmasnak találod?", "affected": "N", "true": "-1"},
+
+      {"title":  "Másokkal könnyen együtt érzel?", "affected": "T", "true": "-1"},
+
+      {"title":  "Az igazságosságot többre tartod, mint a könyörületet?", "affected": "T", "true": "1"},
+
+      {"title":  "Egy új munkahelyen gyorsan bekerülsz az ottani társasági életbe?", "affected": "E", "true": "1"},
+
+      {"title":  "Minél több emberrel beszélsz, annál jobban érzed magad?", "affected": "E", "true": "1"},
+
+      {"title":  "Jobban érdekel a kivitelezés mint maga az ötlet?", "affected": "N", "true": "-1"},
+
+      {"title":  "Szereted figyelemmel követni a dolgok alakulását?", "affected": "J", "true": "1"},
+
+      {"title":  "Más emberek problémáival könnyen azonosulsz?", "affected": "T", "true": "-1"},
+
+      {"title":  "Gyakran szívesebben olvasol könyveket, minthogy szórakozni mennél?", "affected": "E", "true": "-1"},
+
+      {"title":  "A kötelezettségeket próbálod elkerülni?", "affected": "J", "true": "-1"},
+
+      {"title":  "Mélyen megérint, ha más emberek bajairól hallasz?", "affected": "N", "true": "-1"},
+
+      {"title":  "A bevett módszerek követése helyett inkább hajlasz a kísérletezésre?", "affected": "N", "true": "1"},
+
+      {"title":  "A határidők számodra inkább tűnnek relatívnak, mint abszolút fontosságúaknak?", "affected": "J", "true": "-1"},
+
+      {"title":  "A jelen történései általában jobban foglalkoztatnak, mint a jövőbeli terveid?", "affected": "N", "true": "-1"},
+
+      {"title":  "Szereted kizárni a külvilág zajait?", "affected": "E", "true": "-1"},
+
+      {"title":  "Lényeges, hogy saját kezeddel próbáld ki a dolgokat?", "affected": "N", "true": "-1"},
+
+      {"title":  "Úgy gondolod, hogy mindent lehet elemezni?", "affected": "T", "true": "1"},
+
+      {"title":  "Mindent megteszel, hogy időre elvégezd a feladatod?", "affected": "J", "true": "1"},
+
+      {"title":  "Szereted a dolgokat elrendezni, rendbe rakni?", "affected": "J", "true": "-1"},
+
+      {"title":  "Társas összejöveteleken rendszerint sok emberrel beszélgetsz, akár idegenekkel is?", "affected": "E", "true": "1"},
+
+      {"title":  "Féken tudod tartani a vágyaidat és a kísértéseidet?", "affected": "J", "true": "1"},
+
+      {"title":  "Könnyedén felfogsz új elméleti szabályokat?", "affected": "N", "true": "1"},
+
+      {"title":  "Egy helyiségben inkább a falakhoz állsz közelebb, mint a helyiség közepéhez?", "affected": "E", "true": "-1"},
+
+      {"title":  "Megpróbálod határozottan követni az elveidet?", "affected": "T", "true": "1"},
+
+      {"title":  "A kalandvágy közel áll a szívedhez?", "affected": "J", "true": "-1"},
+
+      {"title":  "Inkább kisebb csoportokban érzed jól magad, mint sok ember között?", "affected": "E", "true": "-1"},
+
+      {"title":  "A megoldás keresése fontosabb, mint maga a megoldás?", "affected": "J", "true": "-1"},
+
+      {"title":  "Nehezedre esik az érzelmeidről beszélni?", "affected": "T", "true": "1"},
+
+      {"title":  "Egy helyzetben inkább az adott tényekre koncentrálsz, mint a lehetséges következményekre?", "affected": "N", "true": "-1"},
+
+      {"title":  "Szerinted a tudományos megközelítés a legjobb?", "affected": "T", "true": "1"},
+
+      {"title":  "Gyakran gondolkozol azon, hogyan lehetne még jobbá tenni a dolgokat?", "affected": "N", "true": "1"},
+
+      {"title":  "Problémamegoldásban inkább követed az általad megszokott módszert, minthogy új megközelítést keresné?", "affected": "N", "true": "-1"},
+
+      {"title":  "Szabadidődet inkább egyedül pihenve, esetleg nyugodt családi légkörben szereted eltölteni?", "affected": "E", "true": "-1"},
+
+      {"title":  "Nagyobb biztonságban érzed magad, ha a megszokott utakhoz/módszerekhez ragaszkodszi?", "affected": "N", "true": "-1"},
+
+      {"title":  "Könnyen befolyásolnak az erős érzelmek?", "affected": "T", "true": "-1"},
+
+      {"title":  "Mindig keresed a lehetőségeket?", "affected": "N", "true": "1"},
+
+      {"title":  "Szereted a magányos sétákat?", "affected": "E", "true": "-1"},
+
+      {"title":  "Társasági helyzetben könnyen kommunikálsz?", "affected": "E", "true": "1"},
+
+      {"title":  "Következetesen követed a szokásaidat?", "affected": "J", "true": "1"},
+
+      {"title":  "Önként veszel részt olyasmikben, amik kivívják az együttérzésed?", "affected": "T", "true": "-1"},
+
+      {"title":  "Könnyen meglátod egy-egy esemény számos lehetséges kimenetelét?", "affected": "N", "true": "1"},
+
+      {"title":  "Döntéseidet inkább a pillanatnyi érzelmeid, mintsem a gondos tervezés határozzák meg?", "affected": "J", "true": "-1"}
+
+    ],
+    "copyright": "https://mbti-lelektanitipusok.hu/"
+  }
+
+}

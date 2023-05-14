@@ -1,0 +1,9 @@
+@import "variables";
+
+.mbti-text{
+  text-align: justify;
+}
+
+.wikitable, .wikitable tr, .wikitable td{
+  border: solid $wikitable-border-width $wikitable-border-color;
+}

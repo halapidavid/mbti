@@ -1,0 +1,21 @@
+@import "variables";
+
+.disabled{
+
+  pointer-events: none;
+  background-color: $disabled-question-background;
+  color: $disabled-question-color;
+
+  .btn-outline-dark{
+
+    border-color: $disabled-question-button-color;
+    color: $disabled-question-button-color;
+
+
+  }
+
+  .selected{
+    background-color: $disabled-question-selected-button;
+  }
+
+}
