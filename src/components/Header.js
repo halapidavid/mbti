@@ -18,7 +18,7 @@ export default function Header(){
             <div className="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav mx-auto ">
                    <li className="nav-item">
-                        <a className="nav-link" href="#">Mi is az MBTI?</a>
+                        <Link className="nav-link" href="#">Mi is az MBTI?</Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">A típusok <span className="text-info">(Hamarosan!)</span></a>
