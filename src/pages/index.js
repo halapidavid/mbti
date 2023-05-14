@@ -157,7 +157,7 @@ export default function MiAzMbti() {
                         értelmében mondhatjuk, a MBTI elsősorban abból a szempontból próbálja osztályozni az embereket,
                         miképp dolgozzák fel a külvilágból érkező információkat, és ennek alapján milyen általános
                         döntési módszert alkalmaznak, azaz – kicsit faramuci kifejezésekkel, de rövidebben – milyen az
-                        „információfeldolgozó és döntési stílusuk".
+                        „információfeldolgozó és döntési stílusuk&#34;.
                     </p>
                 </div>
                 <div className="col-lg-2 d-none d-lg-block"></div>
