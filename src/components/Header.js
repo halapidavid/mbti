@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 
 export default function Header(){
     return(<div id="mainNavigation">
@@ -29,8 +29,8 @@ export default function Header(){
                             Tesztek
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a className="dropdown-item" href="/tesztek/4/">4 kérdéses <span className="text-danger">(ÚJ!)</span></a></li>
-                            <li><a className="dropdown-item" href="/tesztek/72/">72 kérdéses</a></li>
+                            <li><Link className="dropdown-item" href="/tesztek/4/">4 kérdéses <span className="text-danger">(ÚJ!)</span></Link></li>
+                            <li><Link className="dropdown-item" href="/tesztek/72/">72 kérdéses</Link></li>
                         </ul>
                     </li>
                 </ul>
